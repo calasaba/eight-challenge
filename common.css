@@ -2,7 +2,7 @@
 * @Author: calasaba
 * @Date:   2018-09-10 14:50:54
 * @Last Modified by:   calasaba
-* @Last Modified time: 2018-09-10 15:16:14
+* @Last Modified time: 2018-09-10 16:18:32
 */
 .fl{
     float: left;
@@ -128,6 +128,7 @@
 .footer-right{
     margin-top:35px;
     text-align: center;
+    margin-right: 20px;
 }
 .footer-right p{
     letter-spacing: 3px;

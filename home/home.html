@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../common.css">
-
+    <link rel="stylesheet" href="../broadcast-me.css">
+    <script src="../broadcast-me.js"></script>
     <script>
         function tzJob(){
             window.location.href = "../job/job.html";
@@ -17,7 +18,8 @@
         function tzHome(){
             window.location.href = "../home/home.html";
         }
-    </script>  
+    </script>
+    
     
 </head>
 <body>
@@ -50,7 +52,8 @@
     
      <div class="home-main">
         <!-- 轮播图 -->
-        <div id="box"></div> 
+        <div id='box'>    
+        </div> 
              
         
          <!-- 中间部分 -->
@@ -258,6 +261,28 @@
             </div>
         </div>
     </div>
-
+    <script>
+    var box = document.getElementById('box');
+    var imagesAndUrl = [{
+      imgSrc : '../images/eight-home-img.jpg',
+      linkHref : "#"
+    },{
+      imgSrc : '../images/eight-home-img.jpg',
+      linkHref : '1'
+    },{
+      imgSrc : '../images/eight-home-img.jpg',
+      linkHref : '#'
+    },{
+      imgSrc : '../images/eight-home-img.jpg',
+      linkHref : '#'
+    },{
+      imgSrc : '../images/eight-home-img.jpg',
+      linkHref : '#'
+    }];
+    var broadcast = new Broadcast(box,imagesAndUrl,{
+      transitionTime : 800, // 动画过渡时间，默认为800ms
+      intervalTime : 5000 // 图片切换时间，默认为5s
+    });
+  </script>
 </body>
 </html>
