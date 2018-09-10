@@ -1,0 +1,205 @@
+/*
+* @Author: calasaba
+* @Date:   2018-09-10 14:54:14
+* @Last Modified by:   calasaba
+* @Last Modified time: 2018-09-10 15:03:19
+*/
+.home-main{
+    width: 100%;
+    background-color: #fafafa;
+}
+/* 轮播图  */
+.carousel-inner  img{
+  width: 100%;
+  height: 100%;
+}
+.gill{
+    display:inline-block;
+}
+h3{
+    display:inline-block;
+}
+
+.home-main-top{
+    height: 200px;
+    background-color: #555a6a;
+}
+.home-main-middle{
+    margin-top:50px;
+}
+.home-middle-top{
+    padding-bottom: 100px;
+}
+.home-middle-top-left{
+    width: 750px;
+    text-align: center;
+    padding-right: 10px;
+}
+.efficient, .standard, .man-keep{
+    width: 230px;
+    margin-right: 20px;
+}
+.efficient-img, .standard-img, .man-keep-img{
+    /*width: 60px;*/
+    height: 62px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.home-middle-top-left p{
+    font-size: 14px;
+    line-height: 32px;
+}
+.efficient-word, .man-keep-word{
+    font-size: 12px;
+    color: #999999;
+    text-align: justify;
+}
+.standard-word{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.home-middle-top-right{
+    height: 100%;
+    padding-left: 30px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    background: url("../images/eight-border.png") left center no-repeat;
+
+}
+.people-number {
+    color: #29b078;
+    background: url("../images/eight-people.png") left  center no-repeat;
+    padding-left: 25px;
+    height: 38px;
+    line-height: 38px;
+}
+/* 如何学习 */
+.how-learn{
+    text-align: center;
+}
+.how-learn-header{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.learn-number{
+    width: 78px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    background: url("../images/eight-circle.png") center center no-repeat;
+    color: #29b078;
+    font-size: 14px;
+}
+.step-content{
+    height: 78px;
+    width: 120px;
+    text-align: left;
+    padding-left: 7px;
+    color: #999999;
+    line-height: 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.learn-arrow{
+    width: 60px;
+    height: 78px;
+    background: url("../images/eight-home-arrow.png") center center no-repeat;
+}
+
+/*  优秀学员展示  */
+.student-display-header{
+    margin-top:50px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+}
+.student-content{
+    display: flex;
+    justify-content: space-between;
+}
+.outstanding-student{
+    width: 210px;
+    border:1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+}
+.student-img{
+    margin-top:15px;
+}
+.student-work{
+    line-height: 32px;
+    height: 32px;
+    font-size: 16px;
+}
+.work-detail{
+    color:#999999;
+    margin:5px 15px 15px 15px;
+    text-align: left;
+}
+.student-footer{
+    margin-top: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.student-footer span{
+    display: inline-block;
+    margin-right:5px;
+    width: 13px;
+    height: 13px;
+}
+.student-footer-one{
+    background: url('../images/eight-student-footer-one.png') center center no-repeat;
+}
+.student-footer-two,.student-footer-three,.student-footer-four{
+    background: url('../images/eight-student-footer-two.png') center center no-repeat;
+}
+
+/* 战略合作企业 */
+.company-header{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+}
+.company-content{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.company-one:hover{
+    box-shadow: 2px 2px 2px #ccc;
+}
+/* 友情链接 */
+.home-main-down{
+    height: 120px;
+    background-color: #fff;
+}
+.home-down-header{
+    font-size:16px;
+    /*font-weight: bold;*/
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+}
+.home-main-down li{
+    width: 100px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+.home-main-down li a{
+    color: #999999;
+    padding-bottom: 5px;
+    background: url('../images/eight-twelve.png') left 6px no-repeat;
+    padding-left:8px;
+}
+.home-main-down a:hover{
+    border-bottom: 1px solid #26a26f;
+}

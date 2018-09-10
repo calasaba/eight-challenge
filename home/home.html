@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../common.css">
+
+    <script>
+        function tzJob(){
+            window.location.href = "../job/job.html";
+        }
+        function tzCom(){
+            window.location.href = "../company/company.html";
+        }
+        function tzHome(){
+            window.location.href = "../home/home.html";
+        }
+    </script>  
+    
+</head>
+<body>
+    <div class="top">
+        <div class="top-header container clearfloat">
+            <p class="fl">客服热线： 010-594-78634</p>
+            <p class="top-img fr">
+                <span class="wechat-img"></span>
+                <span class="qq-img"></span>
+                <span class="weibo-img"></span>
+            </p>
+        </div>
+        <div class="top-nav">
+            <div class="container clearfloat">
+                <div class="nav-left fl">
+                    <p class="nav-left-top">技能树</p>
+                    <p class="nav-left-down">www.jnshu.com</p>
+                </div>
+                <div class="nav-right fr">
+                    <ul>
+                        <li><a href="" >关于</a></li>
+                        <li onclick="tzCom()"><a href="" >推荐</a></li>
+                        <li onclick="tzJob()"><a href="" >职业</a></li>
+                        <li><a href="">首页</a></li>              
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <div class="home-main">
+        <!-- 轮播图 -->
+        <div id="box"></div> 
+             
+        
+         <!-- 中间部分 -->
+         <div class="home-main-middle container">
+            <!-- 轮播图下边 -->
+            <div class="home-middle-top clearfloat">
+                <div class="home-middle-top-left fl clearfloat">
+                    <div class="efficient fl">
+                        <div class="efficient-img">
+                            <img src="../images/eight-rocket.png" alt="picture">
+                        </div>
+                        <p>高效</p>
+                        <div class="efficient-word">将五到七年的成长时间，缩短到一年到三年。</div>
+                    </div>
+                    <div class="standard fl">
+                        <div class="standard-img">
+                            <img src="../images/eight-archive.png" alt="picture">
+                        </div>
+                        <p>规范</p>
+                        <div class="standard-word">标准的实战教程，不会走弯路</div>
+                    </div>
+                    <div class="man-keep fl">
+                        <div class="man-keep-img">
+                            <img src="../images/eight-man-keep.png" alt="picture">
+                        </div>
+                        <p>人脉</p>
+                        <div class="man-keep-word">同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。
+                        </div>
+                    </div>
+                </div>
+                <div class="home-middle-top-right fl">
+                    <div class="learn-people">
+                        <p class="people-number">12400</p>
+                        <p class="learn-exp">累计在线学习人数</p>
+                    </div>
+                    <div class="work-people">
+                        <p class="people-number">12400</p>
+                        <p class="work-exp">学员已找到满意工作</p>
+                    </div>
+                </div>   
+            </div>
+            <!-- 如何学习 -->
+            <div class="how-learn">
+                <div class="how-learn-header">如何学习</div>
+                <div class="learn-step clearfloat">
+                    <div class="learn-first">
+                        <p class="learn-number fl">1</p>
+                        <p class="step-content fl">匹配你现在的个人情况 寻找适合自己的岗位</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">2</p>
+                        <p class="step-content fl">了解职业前景薪金待遇、 竞争压力等</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">3</p>
+                        <p class="step-content fl">掌握行业内顶级技能</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">4</p>
+                        <p class="step-content fl">查看职业目标任务</p>
+                    </div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">5</p>
+                        <p class="step-content fl">参考学习资源，掌握 技能点，逐个完成任务</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">6</p>
+                        <p class="step-content fl">加入班级，和小伙伴们 互帮互助，一块学习</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">7</p>
+                        <p class="step-content fl">选择导师，一路引导， 加速自己成长</p>
+                    </div>
+                    <div class="learn-arrow fl"></div>
+                    <div class="learn-first">
+                        <p class="learn-number fl">8</p>
+                        <p class="step-content fl">完成职业技能，升级业界大牛</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 优秀学员展示 -->
+            <div class="student-display">
+                <div class="student-display-header">优秀学员展示</div>
+                <div class="student-content">
+                    <div class="outstanding-student">
+                        <div class="student-img">
+                            <img src="../images/eight-student-two.png" alt="picture">
+                        </div>
+                        <div class="student-work">技术顾问：罗大佑</div>
+                        <div class="work-detail">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</div>
+                    </div>
+                    <div class="outstanding-student">
+                        <div class="student-img">
+                            <img src="../images/eight-student-four.png" alt="picture">
+                        </div>
+                        <div class="student-work">技术顾问：罗大佑</div>
+                        <div class="work-detail">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</div>
+                    </div>
+                    <div class="outstanding-student">
+                        <div class="student-img">
+                            <img src="../images/eight-student-one.png" alt="picture">
+                        </div>
+                        <div class="student-work">技术顾问：罗大佑</div>
+                        <div class="work-detail">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</div>
+                    </div>
+                    <div class="outstanding-student">
+                        <div class="student-img">
+                            <img src="../images/eight-student-three.png" alt="picture">
+                        </div>
+                        <div class="student-work">技术顾问：罗大佑</div>
+                        <div class="work-detail">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</div>
+                    </div>
+                </div>
+                <div class="student-footer">
+                    <span class="student-footer-one"></span>
+                    <span class="student-footer-two"></span>
+                    <span class="student-footer-three"></span>
+                    <span class="student-footer-four"></span>
+                </div>
+            </div>
+            <!-- 战略合作企业 -->
+            <div class="company">
+                <div class="company-header">战略合作企业</div>
+                <div class="company-content">
+                    <div class="company-one">
+                        <img src="../images/eight-company-one.png" alt="picture">
+                    </div>
+                    <div class="company-one">
+                        <img src="../images/eight-company-two.png" alt="picture">
+                    </div>
+                    <div class="company-one">
+                        <img src="../images/eight-company-three.png" alt="picture">
+                    </div>
+                    <div class="company-one">
+                        <img src="../images/eight-company-four.png" alt="picture">
+                    </div>
+                    <div class="company-one">
+                        <img src="../images/eight-company-five.png" alt="picture">
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="home-main-down clearfloat">
+             <div class="container">
+                 <p class="home-down-header">友情链接</p>
+                 <ul>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">教师招聘</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">教师招聘</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">教师招聘</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">教师招聘</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">教师招聘</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">找工作</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">手机软件</a></li>
+                     <li><a href="">手机软件</a></li>
+                 </ul>
+             </div>
+         </div> 
+     </div>
+
+
+    <div class="footer clearfloat">
+        <div class="footer-top container clearfloat">
+            <div class="footer-left fl">
+                <p class="footer-left-top">技能数 —— 改变你我</p>
+                <p class="footer-left-down">
+                    <span>关于我们</span><span class="line"></span><span>联系我们</span><span class="line"></span><span>合作企业</span>
+                </p>
+            </div>
+            <div class="footer-middle fl">
+                <p class="footer-middle-top">旗下网站</p>
+                <p class="footer-middle-middle">
+                    <span>草船云孵化器</span>
+                    <span>最强IT特训营</span>
+                </p>
+                <p class="footer-middle-down">
+                    <span>葡萄藤轻游戏</span>
+                    <span>桌游精灵</span>
+                </p>
+            </div>
+            <div class="footer-right fr">
+                <p>微信公众平台</p>
+                <img src="../images/eight-footer.png" alt="二维码">
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="container">
+                <p>Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

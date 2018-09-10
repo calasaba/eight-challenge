@@ -1,0 +1,142 @@
+/*
+* @Author: calasaba
+* @Date:   2018-09-10 14:50:54
+* @Last Modified by:   calasaba
+* @Last Modified time: 2018-09-10 15:16:14
+*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: inherit;
+}
+
+/* 顶部 */
+.top-header{
+    height: 40px;
+    line-height: 40px;
+}
+.top-header p{
+    font-size: 14px;
+    color: #29b078;
+}
+.top-img{
+    height: 40px;
+    margin-right: 20px;
+}
+.top-img span{
+    display: inline-block;
+    margin-right: 16px;
+    width: 25px;
+    height: 24px;
+    margin-top: 8px;
+}
+.weibo-img{
+    background: url('./images/eight-home-three.png') center center no-repeat;
+}
+.qq-img{
+    background: url('./images/eight-home-two.png') center center no-repeat;
+}
+.wechat-img{
+    background: url('./images/eight-home-one.png') center center no-repeat;
+}
+/* 导航 */
+.top-nav{
+    height: 80px;
+    background-color: #29b078;
+    color: #fff;
+}
+.nav-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.nav-left-top{
+    font-size: 36px;
+    letter-spacing: 2px;   
+}
+.nav-left-down{
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+.nav-right ul li{
+    float: right;
+    width: 100px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+}
+.nav-right ul li a{
+    color: #fff;
+    font-size: 16px;
+}
+.nav-right li:hover{
+    border-bottom:2px solid #fff;
+}
+/* 底部部分 */
+.footer{
+    height: 200px;
+    color: #fff;
+    background-color: #26a26f;
+}
+.footer-top{
+    height: 170px;
+    font-size: 16px;
+}
+.footer-left{
+    margin-right: 130px;
+}
+.footer-left{
+    margin-top:35px;
+    margin-bottom: 35px;
+}
+.footer-middle{
+    margin-top:35px;
+    margin-bottom: 30px;
+}
+.footer-left-down{
+    margin-top:68px;
+}
+.line{
+    height: 8px;
+    width: 0;
+    border-left: 1px solid #fff;
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer-middle-top{
+    margin-bottom: 23px;
+}
+.footer-middle-middle{
+    margin-bottom: 23px;
+}
+.footer-middle-middle span,.footer-middle-down span{
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom:5px;
+}
+.footer-middle-middle span:hover,.footer-middle-down span:hover{
+    border-bottom: 1px solid #fff;
+}
+.footer-right{
+    margin-top:35px;
+    text-align: center;
+}
+.footer-right p{
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.footer-down{
+    border-top:1px solid #32c086;
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
+    background-color: #26a26f;    
+}

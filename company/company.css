@@ -1,0 +1,86 @@
+/*
+* @Author: calasaba
+* @Date:   2018-09-10 15:08:34
+* @Last Modified by:   calasaba
+* @Last Modified time: 2018-09-10 15:09:32
+*/
+.main{
+    background-color: #fafafa;
+    padding-bottom: 200px;
+}
+.main-img{
+    height: 249px;
+    /*width: 100%;*/
+    min-width: 1000px;
+    background: url('../images/eight-five.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+.main-header{
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.main-header span{
+    color: #29b078;
+}
+.main-left{
+    width: 280px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+}
+.main-left-header{
+    height: 60px;
+    color: 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+}
+.main-left-content ul{
+    margin:20px auto;
+    list-style-type: circle;
+}
+.main-left-content a{
+    display: block;
+    color: #29b078;
+    /*text-align: center;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:42%;
+    list-style-type: circle;
+    background: url('../images/eight-six.png') 37% center no-repeat;
+}
+.main-left-conent a:visited{
+    color: #ff946b;
+    background: url('../images/eight-seven.png') 37% center no-repeat;
+}
+.main-left-content a:hover, .mian-left-content a:active{
+    color: #ff946b;
+    background: url('../images/eight-seven.png') 37% center no-repeat;
+}
+.main-right{
+    width: 690px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    color: #999999;
+}
+.main-right-header{
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-right-img{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.main-right-header p{
+    margin-top:30px;
+    margin-right: 50px; 
+    text-align: justify;
+    line-height: 24px;
+}
+.main-right-content p{
+    width: 580px;
+    margin:35px auto;
+    line-height: 24px;
+    text-indent: 2em;
+    text-align: justify;
+}
